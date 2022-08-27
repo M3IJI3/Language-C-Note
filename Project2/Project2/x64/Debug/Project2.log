@@ -1,6 +1,4 @@
 ﻿  main.c
-C:\Users\mj\Desktop\Language C\Project2\Project2\main.c(126,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-C:\Users\mj\Desktop\Language C\Project2\Project2\main.c(126,9): message : consider using '%zd' in the format string
-C:\Users\mj\Desktop\Language C\Project2\Project2\main.c(127,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
-C:\Users\mj\Desktop\Language C\Project2\Project2\main.c(127,9): message : consider using '%zd' in the format string
+C:\Users\mj\Desktop\Language C\Project2\Project2\main.c(168,9): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'size_t'
+C:\Users\mj\Desktop\Language C\Project2\Project2\main.c(168,9): message : consider using '%zd' in the format string
   Project2.vcxproj -> C:\Users\mj\Desktop\Language C\Project2\x64\Debug\Project2.exe

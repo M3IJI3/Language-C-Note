@@ -109,26 +109,78 @@ enum Sex
 //字符串在结尾的位置隐藏了一个\0的字符
 //\0是字符串的结束标志
 
-#include <string.h>
+//#include <string.h>
 
-int main() {
+//int main() {
 
 	//字符数组 - 数组是一组相同类型的元素
 	//char arr[] = "hello";
 
-	char arr1[] = "abc";
-	char arr2[] = { 'a', 'b', 'c'};
+	/*char arr1[] = "abc";
+	char arr2[] = { 'a', 'b', 'c'};*/
 
 	//求一串字符串的长度 (\0不算字符串长度)
 	//int length = strlen("abc"); // 报警告 没有引用头文件
 	//printf("%d\n", length);
 
-	printf("%d\n", strlen(arr1));
-	printf("%d\n", strlen(arr2)); //随机值
+	//printf("%d\n", strlen(arr1));
+	//printf("%d\n", strlen(arr2)); //随机值
 
 	//打印字符串
 	//printf("%s\n", arr1);
 	//printf("%s\n", arr2);
 
+	//return 0;
+ //}
+
+
+//转义字符 - 转变了原来的意思 \t
+//int main() {
+//
+//	//printf("c:\test\test.c");
+//	printf("ab\ncd"); //  \+n
+//	return 0;
+//}
+
+//int main() {
+//	//printf("(are you ok??)"); // ??) -- 会被解析成 ] - 三字母词
+//
+//	//printf("%c\n", '\'');
+//	printf("%s\n", "\"abc\"");
+//	printf("%s\n", "c:\\test\\test.git");
+//	printf("\a"); //警告字符 触发蜂鸣
+//	
+//	return 0;
+//}
+
+//#include <string.h>
+
+//int main() {
+
+	//八进制的130是十进制的88 (1 * 8^2 + 3 * 8^1 + 0 * 8^0 = 73)
+	//printf("%c\n", '\130'); 
+
+	//x -- ascii码值是88
+	//printf("%c\n", '\101'); // a - 65 - 八进制是: 101
+	//printf("%c\n", '\x30'); //ascii码 -- 48 -- 字符0
+
+	//printf("%d\n", strlen("abc")); //3
+	//printf("%d\n", strlen("c:\test\328\test.c"));
+	//printf("%s\n", "c:\test\328\test.c");
+
+	//return 0;
+//}
+
+//注释: 是用来解释复杂代码的
+//
+
+
+int main()
+{
+	//int a = 10; //C++注释风格
+	/*
+	  int b = 0;
+	*/  //C语言的注释风格 - 不支持嵌套注释(缺陷)
+	
 	return 0;
- }
+}
