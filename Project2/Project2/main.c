@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
 //作用域(scope)和生命周期
@@ -175,12 +176,46 @@ enum Sex
 //
 
 
-int main()
-{
-	//int a = 10; //C++注释风格
-	/*
-	  int b = 0;
-	*/  //C语言的注释风格 - 不支持嵌套注释(缺陷)
-	
-	return 0;
-}
+//int main()
+//{
+//	//int a = 10; //C++注释风格
+//	/*
+//	  int b = 0;
+//	*/  //C语言的注释风格 - 不支持嵌套注释(缺陷)
+//	
+//	return 0;
+//}
+
+//int main() {
+//	int input = 0; //输入
+//	printf("加入比特:)");
+//	printf("你要好好学习嘛?");
+//	scanf("%d", &input);
+//
+//	if (input == 1) {
+//		printf("good offer\n");
+//	}
+//	else {
+//		printf("卖红薯\n");
+//	}
+//
+//	return 0;
+//}
+
+//int main() {
+//
+//	int line = 0;
+//	while (line < 30000)
+//	{
+//		printf("coding: %d\n", line);
+//		line++;
+//	}
+//	
+//	if (line == 30000) 
+//	{
+//		printf("good offer\n");
+//	}
+//
+//	return 0;
+//}
+
