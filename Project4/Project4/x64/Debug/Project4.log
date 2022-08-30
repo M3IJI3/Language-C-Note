@@ -1,2 +1,3 @@
-﻿  main.c
-  Project4.vcxproj -> C:\Users\mj\Desktop\Language C\Project4\x64\Debug\Project4.exe
+﻿  add.c
+main.obj : error LNK2019: unresolved external symbol add referenced in function main
+C:\Users\mj\Desktop\Language C\Project4\x64\Debug\Project4.exe : fatal error LNK1120: 1 unresolved externals
