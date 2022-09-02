@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\mj\Desktop\Language C\Project7\Project7\main.c(25,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Project7.vcxproj -> C:\Users\mj\Desktop\Language C\Project7\x64\Debug\Project7.exe
