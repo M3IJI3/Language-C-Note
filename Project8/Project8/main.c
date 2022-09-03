@@ -164,7 +164,7 @@
 
 
 //EXAMPLES:
-// getchar(): read a character fron a stream, or get a character from stdio
+// getchar(): read a character from a stream, or get a character from stdio.h
 // EOF: end of file - 文件的结束标志
 //int main()
 //{
@@ -189,10 +189,11 @@
 //
 //	//清理缓冲区
 //	//getchar(); //处理'\n', 但是一个getchar()只能处理一个字符
+//  //scanf()函数只会读取空格前的字符
 //
 //	//清理缓冲区中的多个字符
 //	int tmp = 0;
-//	while ((tmp = getchar()) != '\n')
+//	while ((tmp = getchar()) != '\n')  //利用while循环把字符读走
 //	{
 //		;
 //	}
