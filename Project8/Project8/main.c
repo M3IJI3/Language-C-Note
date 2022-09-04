@@ -213,16 +213,107 @@
 //}
 
 
+//int main()
+//{
+//	int ch = 0;
+//	while ((ch=getchar()) != EOF) // windows系统ctrl+z等于EOF, 退出
+//	{
+//		if (ch < '0' || ch > '9') 
+//		{
+//			continue; //如果不是0~9的数字,不打印,返回进while循环
+//		}
+//		putchar(ch); //打印字符
+//	}
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	int i = 0;
+//
+//	for (i = 1; i <= 10; i++)
+//	{
+//		/*if (i == 5)
+//		{
+//			break;
+//		}*/
+//
+//		if (i == 5)
+//		{
+//			continue; // 跳过5 (1 2 3 4 6 7 8 9 10)
+//		}
+//		printf("%d ", i);
+//	}
+//	
+//
+//	return 0;
+//}
+
+
+//循环体内改变循环变量的例子(循环体内最好不要改变循环变量)
+//int main()
+//{
+//	for (int i = 0; i <= 10; i++)
+//	{
+//		printf("%d ", i); 
+//		for (int j = 0; j < 10; i++)
+//		{
+//			printf("hehe\n");
+//		}
+//	}
+//
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	int arr[10] = { 0 };
+//	int i = 0;
+//	for (i = 0; i < 10; i++)  // 建议使用左闭右开区间的写法
+//	{
+//		printf("%d ", arr[i]);
+//	}
+//	return 0;
+//}
+
+
+//int main()
+//{
+//	for (;;)
+//	{
+//		printf("hehe\n");
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	int i = 0;
+//	int j = 0;
+//	for (; i < 3; i++)
+//	{
+//		for (; j < 3; j++)
+//		{
+//			printf("hehe\n");
+//		}
+//	}
+//
+//	return 0;
+//}
+
+
+
 int main()
 {
-	int ch = 0;
-	while ((ch=getchar()) != EOF) // windows系统ctrl+z等于EOF, 退出
+	int i = 0;
+	int k = 0;
+	// k = 0是赋值(为假), k == 0是判断条件
+	// 一次都不进循环
+	for (i = 0, k = 0; k = 0; i++, k++) // k为假
 	{
-		if (ch < '0' || ch > '9') 
-		{
-			continue; //如果不是0~9的数字,不打印,返回进while循环
-		}
-		putchar(ch); //打印字符
+		k++;
 	}
 	return 0;
 }
